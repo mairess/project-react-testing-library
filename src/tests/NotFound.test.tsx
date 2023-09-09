@@ -5,8 +5,9 @@ import renderWithRouter from '../renderWithRouter';
 describe('Teste o componente <NotFound.tsx />', () => {
   test('Teste se a página contém um heading h2 com o texto Page requested not found.', () => {
     renderWithRouter(<App />, { route: '*' });
-    const heading = screen.getByRole('heading', { name: /page requested not found/i, level: 2 });
-    expect(heading).toBeInTheDocument();
+    const regEx = /page requested not found/i;
+    const heading = screen.getByRole('heading', { name: regEx, level: 2 });
+    expect(heading).toHaveTextContent(regEx);
   });
   test('Teste se a página mostra a imagem com o atlText e src corretos.', () => {
     renderWithRouter(<App />, { route: '*' });
