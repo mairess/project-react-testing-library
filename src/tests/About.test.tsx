@@ -37,7 +37,8 @@ describe('Teste o componente <About.tsx />', () => {
     renderWithRouter(<App />, { route: '/about' });
 
     const image = screen.getByRole('img', { name: /pokédex/i });
+    const source = 'https://cdn2.bulbagarden.net/upload/thumb/8/86/Gen_I_Pok%C3%A9dex.png/800px-Gen_I_Pok%C3%A9dex.png';
 
-    expect(image).toHaveAttribute('src', 'https://cdn2.bulbagarden.net/upload/thumb/8/86/Gen_I_Pok%C3%A9dex.png/800px-Gen_I_Pok%C3%A9dex.png');
+    expect(image).toHaveAttribute('src', source);
   });
 });
