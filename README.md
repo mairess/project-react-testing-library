@@ -1,10 +1,11 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# <p align="center">Projeto React Testing Library</p>
+
+## Contexto
+
+Esse projeto é uma aplicação já pronta, Pokédex, objetivo é utilizar `jest` e a biblioteca `React-Testing-Library` para escrever os testes.
+
+## Competências desenvolvidas
+
+- Capacidade para usar seletores da `React-Testing-Library` em testes automatizados.
+- Capacidade de simular enventos.
+- Capacidade de testar fluxos lógicos assíncronos.
