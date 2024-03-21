@@ -4,28 +4,97 @@
 
 Esse projeto é uma aplicação já pronta disponibilizada pela [Trybe](https://betrybe.com), a Pokédex, objetivo é utilizar `React-Testing-Library` e `Vitest` para escrever os testes. Sendo todos os testes passando em 100% dos casos de uso/mutações criados pelo `Stryker Mutator`.
 
-## Rode o projeto localmente
+<details>
+
+<summary><strong>Rode o projeto localmente</strong></summary><br>
 
 > ⚠️ É preciso ter o [Node](https://nodejs.org/en) instalado em sua máquina.
 
-Primeiro, instale as dependências com:
+Clone o repositório:
+
+```JSON
+git clone git@github.com:mairess/project-react-testing-library.git
+```
+
+Instale as dependências:
 
 ```JSON
 npm install
 ```
 
-Esse projeto não tem front-end, apenas os testes `Vitest`.
+Inicie o vite server:
 
-Rode todos os testes com:
+```JSON
+npm run dev
+```
+
+### Os testes
+
+Rode os testes com:
 
 ```JSON
 npm test
 ```
-Um teste por vez, acrescentando o nome do test/spec:
+
+Rode um teste específico:
 
 ```JSON
-npm test numbers
+npm run test About.test.tsx
 ```
+
+Rode a cobertura dos testes:
+
+```JSON
+npm run coverage
+```
+
+</details>
+
+<details>
+
+<summary><strong>Rode o projeto com o docker</strong></summary><br>
+
+> ⚠️ É preciso ter o [Docker](https://www.docker.com/get-started/) instalado em sua máquina.
+
+Clone o repositório:
+
+```JSON
+git clone git@github.com:mairess/project-react-testing-library.git
+```
+
+Suba o container:
+
+```JSON
+docker compose up -d
+```
+
+O vite server estará disponível na porta `3000`:
+
+```HTML
+http://localhost:3000
+```
+
+### Os testes
+
+Rode os testes com:
+
+```JSON
+npm test
+```
+
+Rode um teste específico:
+
+```JSON
+npm run test About.test.tsx
+```
+
+Rode a cobertura dos testes:
+
+```JSON
+npm run coverage
+```
+
+</details>
 
 ### cobertura vitest
 
