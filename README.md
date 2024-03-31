@@ -78,19 +78,19 @@ http://localhost:3000
 
 Rode os testes com:
 
-```JSON
+```SHELL
 npm test
 ```
 
 Rode um teste específico:
 
-```JSON
+```SHELL
 npm run test About.test.tsx
 ```
 
 Rode a cobertura dos testes:
 
-```JSON
+```SHELL
 npm run coverage
 ```
 
