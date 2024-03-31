@@ -12,19 +12,19 @@ Esse projeto é uma aplicação já pronta disponibilizada pela [Trybe](https://
 
 Clone o repositório:
 
-```JSON
+```SHELL
 git clone git@github.com:mairess/project-react-testing-library.git
 ```
 
 Instale as dependências:
 
-```JSON
+```SHELL
 npm install
 ```
 
 Inicie o vite server:
 
-```JSON
+```SHELL
 npm run dev
 ```
 
@@ -32,19 +32,19 @@ npm run dev
 
 Rode os testes com:
 
-```JSON
+```SHELL
 npm test
 ```
 
 Rode um teste específico:
 
-```JSON
+```SHELL
 npm run test About.test.tsx
 ```
 
 Rode a cobertura dos testes:
 
-```JSON
+```SHELL
 npm run coverage
 ```
 
@@ -58,13 +58,13 @@ npm run coverage
 
 Clone o repositório:
 
-```JSON
+```SHELL
 git clone git@github.com:mairess/project-react-testing-library.git
 ```
 
 Suba o container:
 
-```JSON
+```SHELL
 docker compose up -d
 ```
 
@@ -108,5 +108,5 @@ npm run coverage
 
 - Capacidade para usar seletores da `React-Testing-Library` em testes automatizados.
 - Capacidade para testar usando `vitest`.
-- Capacidade de simular eventos.
+- Capacidade de `simular eventos`.
 - Capacidade de testar fluxos lógicos assíncronos.
