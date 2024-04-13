@@ -36,26 +36,6 @@ Inicie o vite server:
 npm run dev
 ```
 
-### Os testes
-
-Rode os testes com:
-
-```SHELL
-npm test
-```
-
-Rode um teste específico:
-
-```SHELL
-npm run test About.test.tsx
-```
-
-Rode a cobertura dos testes:
-
-```SHELL
-npm run coverage
-```
-
 </details>
 
 <details>
@@ -82,7 +62,11 @@ O vite server estará disponível na porta `3000`:
 http://localhost:3000
 ```
 
-### Os testes
+</details>
+
+<details>
+
+<summary><strong>Rode os testes</strong></summary><br>
 
 Rode os testes com:
 
@@ -103,7 +87,6 @@ npm run coverage
 ```
 
 </details>
-
 
 ## Competências desenvolvidas
 
