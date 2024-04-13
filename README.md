@@ -1,5 +1,13 @@
 # <p align="center">Projeto React Testing Library</p>
 
+<div align="center">
+  
+| Statements                  | Branches                | Functions                 | Lines                |
+| --------------------------- | ----------------------- | ------------------------- | -------------------- |
+| ![Statements](https://img.shields.io/badge/Coverage-100%25-brightgreen.svg) | ![Branches](https://img.shields.io/badge/Coverage-100%25-brightgreen.svg) | ![Functions](https://img.shields.io/badge/Coverage-100%25-brightgreen.svg) | ![Lines](https://img.shields.io/badge/Coverage-100%25-brightgreen.svg)    |
+
+</div>
+
 ## Contexto
 
 Esse projeto é uma aplicação já pronta disponibilizada pela [Trybe](https://betrybe.com), a Pokédex, objetivo é utilizar `React-Testing-Library` e `Vitest` para escrever os testes. Sendo todos os testes passando em 100% dos casos de uso/mutações criados pelo `Stryker Mutator`.
@@ -96,13 +104,6 @@ npm run coverage
 
 </details>
 
-### cobertura vitest
-
-![alt text](coverage-vitest.png)
-
-### cobertura stryker
-
-![alt text](coverage-stryker.png.png)
 
 ## Competências desenvolvidas
 
